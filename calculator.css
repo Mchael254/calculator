@@ -1,0 +1,102 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(206, 204, 204);
+  
+}
+.calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calculator{
+    width: 70vw;
+    height: 70vh;
+    margin-top: 20px;
+    border: solid black 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    
+}
+.display{
+    width: 70vw;
+    height: 20vh;
+    background-color: rgb(132, 166, 185);
+    font-size: 50px;
+    color:white;
+
+}
+.arithmetic{
+    width: 70vw;
+    height: 49vh;
+    display: flex;
+
+}
+.numbers{
+    width: 50vw;
+    height: 49vh;
+    background-color: rgb(236, 232, 240);
+
+}
+.numbers ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+.numbers ul li button{
+    list-style-type: none;
+    padding: 50px;
+    background-color: blue;
+    margin: 3px;
+    font-size: x-large;
+
+}
+.operators{
+    width: 25vw;
+    height: 49vh;
+    background-color: rgb(158, 155, 149);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.operators ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.operators ul li button{
+    list-style-type: none;
+    padding: 30px;
+    background-color: blue;
+    margin: 3px;
+    font-size: x-large;
+
+}
+.answer  button{
+    padding: 30px;
+    background-color: rgb(158, 158, 172) !important;
+    color: white !important;
+
+}
+.clear button{
+    padding: 10px;
+    background-color: rgb(163, 83, 78) !important;
+    color: white !important;
+
+}
